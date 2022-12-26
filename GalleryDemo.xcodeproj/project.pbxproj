@@ -18,12 +18,12 @@
 		37B16B802959958A00A97C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B7D2959958A00A97C62 /* Main.storyboard */; };
 		37B16B8B2959961600A97C62 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B822959961600A97C62 /* ImageViewExtension.swift */; };
 		37B16B8D2959961600A97C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B862959961600A97C62 /* ViewController.swift */; };
-		37B16B8E2959961600A97C62 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B872959961600A97C62 /* GalleryViewModel.swift */; };
 		37B16B8F2959961600A97C62 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B882959961600A97C62 /* ImageTableViewCell.swift */; };
 		37B16B902959961600A97C62 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B892959961600A97C62 /* ImageTableViewCell.xib */; };
-		37B16B912959961600A97C62 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B8A2959961600A97C62 /* ImageDataModel.swift */; };
 		37B16B952959968400A97C62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B932959968400A97C62 /* NetworkManager.swift */; };
 		37B16B962959968400A97C62 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B942959968400A97C62 /* Router.swift */; };
+		37B16B9B2959A1D900A97C62 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */; };
+		37B16B9D2959A1EA00A97C62 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +59,12 @@
 		37B16B7E2959958A00A97C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37B16B822959961600A97C62 /* ImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		37B16B862959961600A97C62 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37B16B872959961600A97C62 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		37B16B882959961600A97C62 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		37B16B892959961600A97C62 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
-		37B16B8A2959961600A97C62 /* ImageDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 		37B16B932959968400A97C62 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		37B16B942959968400A97C62 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +153,8 @@
 		37B16B722959949300A97C62 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				37B16B992959A19300A97C62 /* DataModels */,
+				37B16B982959A18200A97C62 /* ViewModels */,
 				37B16B812959961600A97C62 /* Extensions */,
 				37B16B832959961600A97C62 /* Managers */,
 				37B16B852959961600A97C62 /* ViewControllers */,
@@ -198,10 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				37B16B862959961600A97C62 /* ViewController.swift */,
-				37B16B872959961600A97C62 /* GalleryViewModel.swift */,
 				37B16B882959961600A97C62 /* ImageTableViewCell.swift */,
 				37B16B892959961600A97C62 /* ImageTableViewCell.xib */,
-				37B16B8A2959961600A97C62 /* ImageDataModel.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -213,6 +213,22 @@
 				37B16B942959968400A97C62 /* Router.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		37B16B982959A18200A97C62 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		37B16B992959A19300A97C62 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,15 +364,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B16B912959961600A97C62 /* ImageDataModel.swift in Sources */,
 				37B16B76295994D200A97C62 /* AppDelegate.swift in Sources */,
 				37B16B77295994D200A97C62 /* SceneDelegate.swift in Sources */,
 				37B16B8F2959961600A97C62 /* ImageTableViewCell.swift in Sources */,
 				37B16B962959968400A97C62 /* Router.swift in Sources */,
+				37B16B9D2959A1EA00A97C62 /* ImageDataModel.swift in Sources */,
 				37B16B952959968400A97C62 /* NetworkManager.swift in Sources */,
+				37B16B9B2959A1D900A97C62 /* GalleryViewModel.swift in Sources */,
 				37B16B8B2959961600A97C62 /* ImageViewExtension.swift in Sources */,
 				37B16B8D2959961600A97C62 /* ViewController.swift in Sources */,
-				37B16B8E2959961600A97C62 /* GalleryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

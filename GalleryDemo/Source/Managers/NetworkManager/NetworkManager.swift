@@ -71,10 +71,10 @@ protocol ResponseHandlerDelegate {
 
 class ResponseHandler: ResponseHandlerDelegate {
     func fetchModel<T: Codable>(type: T.Type, data: Data, completion: (Result<T, GaleryError>) -> Void) {
-        
+        /* use this code when want to print response
         let json = try? JSONSerialization.jsonObject(with: data)
-        debugPrint(json)
-        
+        debugPrint(json ?? "No data")
+        */
         let commentResponse = try? JSONDecoder().decode(type.self, from: data)
         if let commentResponse = commentResponse {
             return completion(.success(commentResponse))

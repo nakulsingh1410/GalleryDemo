@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     
     private func configureUI() {
         tableView.dataSource = self
-        tableView.delegate = self
         tableView.separatorStyle = .none
         tableView.register(UINib(nibName: "ImageTableViewCell", bundle: nil), forCellReuseIdentifier: "ImageTableViewCell")
     }
@@ -66,16 +65,3 @@ extension ViewController: UITableViewDataSource {
     }
 
 }
-
-// MARK: - UITableViewDelegate
-
-extension ViewController: UITableViewDelegate {
-
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // Show the selected image in full screen
-//        let imageViewController = ImageViewController(image: viewModel.image(at: indexPath.row))
-//        navigationController?.pushViewController(imageViewController, animated: true)
-    }
-
-}
-
