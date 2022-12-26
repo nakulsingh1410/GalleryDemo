@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     private func configureUI() {
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.separatorStyle = .none
         tableView.register(UINib(nibName: "ImageTableViewCell", bundle: nil), forCellReuseIdentifier: "ImageTableViewCell")
     }
     
@@ -60,7 +61,7 @@ extension ViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ImageTableViewCell") as? ImageTableViewCell else {
             return UITableViewCell()
         }
-        cell.galleryImageView.image = viewModel.image(at: indexPath.row)
+        cell.galleryData = viewModel.image(at: indexPath.row)
         return cell
     }
 

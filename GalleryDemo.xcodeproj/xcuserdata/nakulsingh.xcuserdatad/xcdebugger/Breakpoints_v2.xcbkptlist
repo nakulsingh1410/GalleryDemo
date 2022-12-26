@@ -7,97 +7,81 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D067F150-189A-46D0-85F5-E9CC28CA2A11"
-            shouldBeEnabled = "Yes"
+            uuid = "819B31DE-9405-4BEF-BD18-A2AD1062D58A"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GalleryDemo/GalleryViewModel.swift"
+            filePath = "GalleryDemo/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "searchTopImagesOfTheWeek(completion:)"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "fetchModel(type:data:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D067F150-189A-46D0-85F5-E9CC28CA2A11 - c17ba4ea5de67b4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "GalleryDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "260">
-               </Location>
-               <Location
-                  uuid = "D067F150-189A-46D0-85F5-E9CC28CA2A11 - c17ba4ea5de67b4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "GalleryDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "308">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "94B15BB1-7DC9-4B14-B17E-D26BC7E8C8A7"
+            uuid = "4D899EC9-48AB-4F39-A2AC-1836331DAF92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryDemo/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "fetchModel(type:data:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "995C4D1F-00C9-4EEE-8BF1-52AACEEE7F87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7E84B8C-8813-45FF-817E-0D8DAE5BB5D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryDemo/ImageTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B360708-31F6-44C5-A74F-A3B1A1B413B8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GalleryDemo/GalleryViewModel.swift"
+            filePath = "GalleryDemo/ImageViewExtension.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "searchTopImagesOfTheWeek(completion:)"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "loadImage(from:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "94B15BB1-7DC9-4B14-B17E-D26BC7E8C8A7 - af623b1d4d2a49bb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "GalleryDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  uuid = "94B15BB1-7DC9-4B14-B17E-D26BC7E8C8A7 - c17ba4ea5de67b84"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "GalleryDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "144">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
