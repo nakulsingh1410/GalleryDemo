@@ -1,40 +1,32 @@
 //
-//  ImageTableViewCell.swift
+//  ImageCollectionViewCell.swift
 //  GalleryDemo
 //
-//  Created by Nakul Singh on 24/12/22.
+//  Created by Nakul Singh on 26/12/22.
 //
 
 import UIKit
 
-class ImageTableViewCell: UITableViewCell {
+class GalleryGridCell: UICollectionViewCell {
     // MARK: - Outlets
     
     @IBOutlet var galleryImageView: UIImageView!
     @IBOutlet var lblTitle: UILabel!
     @IBOutlet var lblDate: UILabel!
-
+    
     var galleryData: GalleryData? {
         didSet {
             loadData()
         }
     }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        selectionStyle = .none
+        // Initialization code
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
+   
     private func loadData() {
         galleryImageView.loadImage(from: galleryData?.link)
         lblTitle.text = galleryData?.title
         lblDate.text = galleryData?.imageDate
     }
-    
 }

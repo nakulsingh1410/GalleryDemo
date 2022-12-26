@@ -13,7 +13,6 @@ struct ImageDataModel: Codable {
     let data: [GalleryData]
 }
 
-
 struct GalleryData: Codable {
     let link: String?
     let title: String?
@@ -21,11 +20,10 @@ struct GalleryData: Codable {
     let datetime: TimeInterval?
     
     var imageDate: String {
-        guard let timestamp = datetime else { return ""}
+        guard let timestamp = datetime else { return "" }
         let date = Date(timeIntervalSince1970: timestamp)
         let dateFormatter = DateFormatter()
-        dateFormatter.timeStyle = DateFormatter.Style.medium //Set time style
-        dateFormatter.dateStyle = DateFormatter.Style.medium //Set date style
+        dateFormatter.dateFormat = "dd-MM-yyyy HH:mm a"
         dateFormatter.timeZone = .current
         let localDate = dateFormatter.string(from: date)
         return localDate

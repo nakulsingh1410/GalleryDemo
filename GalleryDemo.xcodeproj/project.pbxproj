@@ -18,12 +18,14 @@
 		37B16B802959958A00A97C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B7D2959958A00A97C62 /* Main.storyboard */; };
 		37B16B8B2959961600A97C62 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B822959961600A97C62 /* ImageViewExtension.swift */; };
 		37B16B8D2959961600A97C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B862959961600A97C62 /* ViewController.swift */; };
-		37B16B8F2959961600A97C62 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B882959961600A97C62 /* ImageTableViewCell.swift */; };
-		37B16B902959961600A97C62 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B892959961600A97C62 /* ImageTableViewCell.xib */; };
+		37B16B8F2959961600A97C62 /* GalleryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B882959961600A97C62 /* GalleryListCell.swift */; };
+		37B16B902959961600A97C62 /* GalleryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B892959961600A97C62 /* GalleryListCell.xib */; };
 		37B16B952959968400A97C62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B932959968400A97C62 /* NetworkManager.swift */; };
 		37B16B962959968400A97C62 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B942959968400A97C62 /* Router.swift */; };
 		37B16B9B2959A1D900A97C62 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */; };
 		37B16B9D2959A1EA00A97C62 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */; };
+		37B16BA02959A69100A97C62 /* GalleryGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9E2959A69100A97C62 /* GalleryGridCell.swift */; };
+		37B16BA12959A69100A97C62 /* GalleryGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B9F2959A69100A97C62 /* GalleryGridCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,12 +61,14 @@
 		37B16B7E2959958A00A97C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37B16B822959961600A97C62 /* ImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
 		37B16B862959961600A97C62 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37B16B882959961600A97C62 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
-		37B16B892959961600A97C62 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		37B16B882959961600A97C62 /* GalleryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryListCell.swift; sourceTree = "<group>"; };
+		37B16B892959961600A97C62 /* GalleryListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryListCell.xib; sourceTree = "<group>"; };
 		37B16B932959968400A97C62 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		37B16B942959968400A97C62 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		37B16B9E2959A69100A97C62 /* GalleryGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryGridCell.swift; sourceTree = "<group>"; };
+		37B16B9F2959A69100A97C62 /* GalleryGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryGridCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +157,10 @@
 		37B16B722959949300A97C62 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				37B16B992959A19300A97C62 /* DataModels */,
-				37B16B982959A18200A97C62 /* ViewModels */,
 				37B16B812959961600A97C62 /* Extensions */,
 				37B16B832959961600A97C62 /* Managers */,
+				37B16B992959A19300A97C62 /* DataModels */,
+				37B16B982959A18200A97C62 /* ViewModels */,
 				37B16B852959961600A97C62 /* ViewControllers */,
 			);
 			path = Source;
@@ -200,8 +204,10 @@
 			isa = PBXGroup;
 			children = (
 				37B16B862959961600A97C62 /* ViewController.swift */,
-				37B16B882959961600A97C62 /* ImageTableViewCell.swift */,
-				37B16B892959961600A97C62 /* ImageTableViewCell.xib */,
+				37B16B882959961600A97C62 /* GalleryListCell.swift */,
+				37B16B892959961600A97C62 /* GalleryListCell.xib */,
+				37B16B9E2959A69100A97C62 /* GalleryGridCell.swift */,
+				37B16B9F2959A69100A97C62 /* GalleryGridCell.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -335,10 +341,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37B16B902959961600A97C62 /* ImageTableViewCell.xib in Resources */,
+				37B16B902959961600A97C62 /* GalleryListCell.xib in Resources */,
 				37B16B672959763900A97C62 /* Readme.md in Resources */,
 				37B16B802959958A00A97C62 /* Main.storyboard in Resources */,
 				37B16B7F2959958A00A97C62 /* LaunchScreen.storyboard in Resources */,
+				37B16BA12959A69100A97C62 /* GalleryGridCell.xib in Resources */,
 				37B16B792959952700A97C62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,10 +373,11 @@
 			files = (
 				37B16B76295994D200A97C62 /* AppDelegate.swift in Sources */,
 				37B16B77295994D200A97C62 /* SceneDelegate.swift in Sources */,
-				37B16B8F2959961600A97C62 /* ImageTableViewCell.swift in Sources */,
+				37B16B8F2959961600A97C62 /* GalleryListCell.swift in Sources */,
 				37B16B962959968400A97C62 /* Router.swift in Sources */,
 				37B16B9D2959A1EA00A97C62 /* ImageDataModel.swift in Sources */,
 				37B16B952959968400A97C62 /* NetworkManager.swift in Sources */,
+				37B16BA02959A69100A97C62 /* GalleryGridCell.swift in Sources */,
 				37B16B9B2959A1D900A97C62 /* GalleryViewModel.swift in Sources */,
 				37B16B8B2959961600A97C62 /* ImageViewExtension.swift in Sources */,
 				37B16B8D2959961600A97C62 /* ViewController.swift in Sources */,
