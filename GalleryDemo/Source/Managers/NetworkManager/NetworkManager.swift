@@ -13,7 +13,6 @@ enum GaleryError: Error {
     case DecodingError
 }
 
-
 class NetworkManager {
     let aPIHandler: APIHandlerDelegate
     let responseHandler: ResponseHandlerDelegate
@@ -24,9 +23,13 @@ class NetworkManager {
         self.responseHandler = responseHandler
     }
     
-    func fetchRequest<T: Codable>(type: T.Type, request: URLRequest, completion: @escaping(Result<T, GaleryError>) -> Void) {
+    func fetchRequest<T: Codable>(type: T.Type, endPoint: Endpoint, completion: @escaping(Result<T, GaleryError>) -> Void) {
+    
+        guard let urlRequest = endPoint.request else {
+            return  completion(.failure(.BadURL))
+        }
        
-        aPIHandler.fetchData(request: request) { result in
+        aPIHandler.fetchData(request: urlRequest) { result in
             switch result {
             case .success(let data):
                 self.responseHandler.fetchModel(type: type, data: data) { decodedResult in
@@ -43,8 +46,6 @@ class NetworkManager {
         }
         
     }
-    
-    
 }
 
 protocol APIHandlerDelegate {

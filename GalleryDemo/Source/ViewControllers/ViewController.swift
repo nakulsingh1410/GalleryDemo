@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
-        loadData()
+        loadData(text: "")
     }
 
     private func configureUI() {
@@ -57,10 +57,10 @@ class ViewController: UIViewController {
     
     // MARK: - Private Methods
     
-    private func loadData() {
+    private func loadData(text: String) {
         // Search for the top images of the week
         activityIndicator.startAnimating()
-        viewModel.searchTopImagesOfTheWeek { [weak self] error in
+        viewModel.searchTopImagesOfTheWeek(searchText: text) { [weak self] error in
             guard let self = self else { return }
             if let error = error {
                 print(error)

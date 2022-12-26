@@ -6,7 +6,7 @@ Gallery Demo
 
 
 ## Installation
-+Download the source code from https://github.com/nakulsingh1410/GalleryDemo.git.
++ Download the source code from https://github.com/nakulsingh1410/GalleryDemo.git.
 
 ## Open the project in Xcode.
 

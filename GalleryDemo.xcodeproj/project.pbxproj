@@ -21,7 +21,7 @@
 		37B16B8F2959961600A97C62 /* GalleryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B882959961600A97C62 /* GalleryListCell.swift */; };
 		37B16B902959961600A97C62 /* GalleryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B16B892959961600A97C62 /* GalleryListCell.xib */; };
 		37B16B952959968400A97C62 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B932959968400A97C62 /* NetworkManager.swift */; };
-		37B16B962959968400A97C62 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B942959968400A97C62 /* Router.swift */; };
+		37B16B962959968400A97C62 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B942959968400A97C62 /* Endpoint.swift */; };
 		37B16B9B2959A1D900A97C62 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */; };
 		37B16B9D2959A1EA00A97C62 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */; };
 		37B16BA02959A69100A97C62 /* GalleryGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B16B9E2959A69100A97C62 /* GalleryGridCell.swift */; };
@@ -64,7 +64,7 @@
 		37B16B882959961600A97C62 /* GalleryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryListCell.swift; sourceTree = "<group>"; };
 		37B16B892959961600A97C62 /* GalleryListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryListCell.xib; sourceTree = "<group>"; };
 		37B16B932959968400A97C62 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		37B16B942959968400A97C62 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		37B16B942959968400A97C62 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		37B16B9A2959A1D900A97C62 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		37B16B9C2959A1EA00A97C62 /* ImageDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 		37B16B9E2959A69100A97C62 /* GalleryGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryGridCell.swift; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				37B16B932959968400A97C62 /* NetworkManager.swift */,
-				37B16B942959968400A97C62 /* Router.swift */,
+				37B16B942959968400A97C62 /* Endpoint.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 				37B16B76295994D200A97C62 /* AppDelegate.swift in Sources */,
 				37B16B77295994D200A97C62 /* SceneDelegate.swift in Sources */,
 				37B16B8F2959961600A97C62 /* GalleryListCell.swift in Sources */,
-				37B16B962959968400A97C62 /* Router.swift in Sources */,
+				37B16B962959968400A97C62 /* Endpoint.swift in Sources */,
 				37B16B9D2959A1EA00A97C62 /* ImageDataModel.swift in Sources */,
 				37B16B952959968400A97C62 /* NetworkManager.swift in Sources */,
 				37B16BA02959A69100A97C62 /* GalleryGridCell.swift in Sources */,

@@ -9,7 +9,7 @@ import UIKit
 
 protocol GalleryViewModelProtocol {
     var imageCount: Int { get }
-    func searchTopImagesOfTheWeek(completion: @escaping (GaleryError?) -> Void)
+    func searchTopImagesOfTheWeek(searchText: String, completion: @escaping (GaleryError?) -> Void)
     func image(at index: Int) -> GalleryData?
 }
 
@@ -23,16 +23,10 @@ class GalleryViewModel: GalleryViewModelProtocol {
     
     // MARK: - API Calls
 
-    func searchTopImagesOfTheWeek(completion: @escaping (GaleryError?) -> Void) {
+    func searchTopImagesOfTheWeek(searchText: String, completion: @escaping (GaleryError?) -> Void) {
         // Fetch the user list from the API
         
-        guard let url = URL(string: "https://api.imgur.com/3/gallery/top/week/0?q=ram") else {
-            return completion(.BadURL)
-        }
-        var urlRequest = URLRequest(url: url)
-        urlRequest.addValue("Client-ID 2c2263046817479", forHTTPHeaderField: "Authorization")
-        
-        NetworkManager().fetchRequest(type: ImageDataModel.self, request: urlRequest) { result in
+        NetworkManager().fetchRequest(type: ImageDataModel.self, endPoint: .searchImages(searchText: searchText)) { result in
             DispatchQueue.main.async {
                 switch result {
                 case .success(let imageData):
