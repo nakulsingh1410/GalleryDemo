@@ -21,3 +21,10 @@ Gallery Demo
 + Created UIImageViewExtension for Image Loading
 + Use of Data Model for API models
 
+
+## ListView screenshot
+## ![ListView_screenshot](https://user-images.githubusercontent.com/24427331/209550668-657c31d4-a94d-4fcd-84ef-1902bae807d0.png)
+
+
+## GridView screenshot
+##### ![GridView_Screenshot](https://user-images.githubusercontent.com/24427331/209550697-3fef798d-6566-46f1-b2ed-1c069fa794f1.png)
