@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F9290AFE-6335-4FA1-9BF1-347059779BE5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D067F150-189A-46D0-85F5-E9CC28CA2A11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryDemo/GalleryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "searchTopImagesOfTheWeek(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D067F150-189A-46D0-85F5-E9CC28CA2A11 - c17ba4ea5de67b4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GalleryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "D067F150-189A-46D0-85F5-E9CC28CA2A11 - c17ba4ea5de67b4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GalleryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94B15BB1-7DC9-4B14-B17E-D26BC7E8C8A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GalleryDemo/GalleryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "searchTopImagesOfTheWeek(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94B15BB1-7DC9-4B14-B17E-D26BC7E8C8A7 - af623b1d4d2a49bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GalleryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "94B15BB1-7DC9-4B14-B17E-D26BC7E8C8A7 - c17ba4ea5de67b84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in GalleryDemo.GalleryViewModel.searchTopImagesOfTheWeek(completion: (Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GalleryDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakulsingh/Desktop/GalleryDemo/GalleryDemo/GalleryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
